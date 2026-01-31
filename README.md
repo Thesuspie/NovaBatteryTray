@@ -34,7 +34,6 @@ It runs silently in the background and displays the current battery level direct
 
 - .NET Framework or .NET 6.0+
 - Windows OS
-- System.Drawing namespace
 
 ## Roadmap 
 - More icon themes
