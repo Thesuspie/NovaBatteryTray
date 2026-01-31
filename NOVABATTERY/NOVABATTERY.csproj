@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Tray\dark\battery-0.ico" />
+    <None Remove="Assets\Tray\dark\battery-10.ico" />
+    <None Remove="Assets\Tray\dark\battery-100.ico" />
+    <None Remove="Assets\Tray\dark\battery-20.ico" />
+    <None Remove="Assets\Tray\dark\battery-30.ico" />
+    <None Remove="Assets\Tray\dark\battery-40.ico" />
+    <None Remove="Assets\Tray\dark\battery-50.ico" />
+    <None Remove="Assets\Tray\dark\battery-60.ico" />
+    <None Remove="Assets\Tray\dark\battery-70.ico" />
+    <None Remove="Assets\Tray\dark\battery-80.ico" />
+    <None Remove="Assets\Tray\dark\battery-90.ico" />
+    <None Remove="Assets\Tray\dark\battery-charging-10.ico" />
+    <None Remove="Assets\Tray\dark\battery-charging-100.ico" />
+    <None Remove="Assets\Tray\dark\battery-charging-20.ico" />
+    <None Remove="Assets\Tray\dark\battery-charging-30.ico" />
+    <None Remove="Assets\Tray\dark\battery-charging-40.ico" />
+    <None Remove="Assets\Tray\dark\battery-charging-50.ico" />
+    <None Remove="Assets\Tray\dark\battery-charging-60.ico" />
+    <None Remove="Assets\Tray\dark\battery-charging-70.ico" />
+    <None Remove="Assets\Tray\dark\battery-charging-80.ico" />
+    <None Remove="Assets\Tray\dark\battery-charging-90.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\Tray\light\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Tray\dark\battery-0.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-10.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-100.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-20.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-30.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-40.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-50.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-60.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-70.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-80.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-90.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-charging-10.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-charging-100.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-charging-20.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-charging-30.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-charging-40.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-charging-50.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-charging-60.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-charging-70.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-charging-80.ico" />
+    <EmbeddedResource Include="Assets\Tray\dark\battery-charging-90.ico" />
+  </ItemGroup>
+
+</Project>
