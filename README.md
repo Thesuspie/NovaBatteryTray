@@ -1,6 +1,7 @@
 # NOVABATTERY
 
 NovaBatteryTray is a lightweight Windows system tray utility for monitoring the battery status of the SteelSeries Arctis Nova 7 headset.
+The project uses the [HeadsetControl]([https://link-url-here.org](https://github.com/Sapd/HeadsetControl)) under the hood.
 
 It runs silently in the background and displays the current battery level directly in the system tray using dynamic icons, including charging indicators.
 
@@ -34,3 +35,7 @@ It runs silently in the background and displays the current battery level direct
 - .NET Framework or .NET 6.0+
 - Windows OS
 - System.Drawing namespace
+
+## Roadmap 
+- More icon themes
+- 
