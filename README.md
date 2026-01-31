@@ -28,7 +28,6 @@ It runs silently in the background and displays the current battery level direct
 2. Right-click → Properties
 3. Set **Build Action** to `Embedded Resource`
 
-## Troubleshooting
 
 ## Requirements
 
