@@ -38,4 +38,4 @@ It runs silently in the background and displays the current battery level direct
 
 ## Roadmap 
 - More icon themes
-- 
+
